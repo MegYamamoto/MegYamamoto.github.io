@@ -1,0 +1,173 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  text-decoration-color: none;
+  color: black;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+body {
+  font-family: 'Baloo Bhaina', cursive;
+  font-family: "Nico Moji";
+  font-size: 20px;
+}
+
+.content {
+  width: 950px;
+  margin: 0 auto;
+}
+
+.contentlist {
+  float: left;
+  margin: 10px;
+}
+
+#container {
+  height: 300px;
+}
+
+.menu {
+  list-style: none;
+  margin: 10px;
+}
+
+.profile, .works, .contact{
+  padding: 30px;
+}
+
+
+.img {
+  width: 250px;
+  height: 250px;
+  background-color: pink;
+  border: red 1px solid;
+  box-sizing: border-box;
+}
+
+.img {
+  width: 250px;
+  height: 250px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
+.atari1 {
+  height: 250px;
+  background-image: url(../img/ua2015_article_knit.jpg);
+}
+
+.atari2 {
+  height: 250px;
+  background-image: url(../img/ua2015_article_uase16.jpg);
+}
+
+.atari3 {
+  width: 250px;
+  background-image: url(../img/nupka_01.png);
+}
+
+.boxoya1, .boxoya2 {
+  padding: 10px;
+}
+
+.box1, .box2 {
+  width: 250px;
+  height: 350px;
+  float: left;
+  margin: 10px;
+}
+
+
+h5 {
+  margin: 10px;
+}
+
+.add {
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+.footer {
+  width: 100%;
+  height: 40px;
+  font-size: 5px;
+  padding: 5px;
+}
+
+.footerlist {
+  float: right;
+}
+
+.footermenu {
+  font-size: 15px;
+  float: left;
+  list-style: none;
+  margin: 5px;
+  padding-right: 10px;
+}
+
+.works1 {
+  /*background-image: url(img/ua2015_article_knit.jpg);*/
+  display: block;
+  margin: 0 auto;
+}
+
+.back {
+  display: block;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 640px){
+  .content {
+    width: 640px;
+    margin: 0 auto;
+  }
+
+  .contentlist {
+    float: none;
+  }
+
+  .img {
+    width: 500px;
+    height: 150px;
+    background-color: yellow;
+    border: red 1px solid;
+    box-sizing: border-box;
+    background-size: cover;
+  }
+
+  .atari1 {
+    width: 500px;
+    height: 150px;
+    background-image: url(../img/s_ua2015_article_knit.png);
+    padding-left: 0;
+  }
+
+  .box1, .box2 {
+    width: 500px;
+    height: 250px;
+    float: none;
+    margin: 10px;
+  }
+
+  .boxoya1, .boxoya2 {
+    padding-top: 10px;
+  }
+}
